@@ -106,7 +106,7 @@
     {#if s.champion !== null}
       <div class="mb-[2.5vh] flex items-center justify-center gap-[2.5vh] rounded-[2vh] bg-gold px-[3vh] py-[1.8vh] font-display text-[5.5vh] leading-none font-black text-ink">
         <Trophy class="size-[5vh] shrink-0" strokeWidth={2.25} />
-        <span class="min-w-0 truncate">Turniersieger: {teamName(s.champion)}</span>
+        <span class="min-w-0 truncate leading-[1.2]">Turniersieger: {teamName(s.champion)}</span>
         <Trophy class="size-[5vh] shrink-0" strokeWidth={2.25} />
       </div>
     {/if}
